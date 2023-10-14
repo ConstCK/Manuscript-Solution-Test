@@ -1,0 +1,11 @@
+{%extends 'default.html' %}
+{%block main%}
+    <h1 class="header">Интерфейс получения данных из файла</h1>
+    <div class="data-form">
+        <form class="form" method="post">
+        {% csrf_token %}
+        {{ form}}
+        <input type="submit" value="Получить данные">
+        </form>
+    </div>
+{%endblock main%}

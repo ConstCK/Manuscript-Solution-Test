@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body: {
+
+}
+.main {
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid;
+    padding:50px;
+}
+
+.data-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-form :nth-child(n) {
+    width: 50%;
+    margin: 10px;
+    padding: 10px 0;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+}
